@@ -1,8 +1,18 @@
-import KgButton from './KgButton';
+import {KgButton} from './KgButton';
+import Hello from './Hello';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   return <div>
-    <h1>React course</h1>
-    <KgButton></KgButton>
+      <Navbar/>
+    <h1>
+    React course
+    </h1>
+
+  <Hello/>
+  <KgButton/>
+
+  <Footer/>
   </div>
 }
 export default App;
