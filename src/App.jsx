@@ -2,6 +2,7 @@ import {KgButton} from './KgButton';
 import Hello from './Hello';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import {Random} from './Random';
 function App() {
   return <div>
       <Navbar/>
@@ -11,6 +12,7 @@ function App() {
 
   <Hello/>
   <KgButton/>
+  <Random/>
 
   <Footer/>
   </div>
