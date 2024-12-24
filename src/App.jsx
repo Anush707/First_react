@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import {Random} from './Random';
 function App() {
   return <div>
-      <Navbar/>
+  <Navbar />
+
     <h1>
     React course
     </h1>

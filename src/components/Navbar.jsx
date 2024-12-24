@@ -2,8 +2,15 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div><button>
+      Home
+      page
+      class
+      </button>
+      </div>
+    
+    
   )
 }
 
-export default Navbar
+export default Navbar;
